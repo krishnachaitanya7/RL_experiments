@@ -3,15 +3,12 @@ import numpy as np
 import pandas as pd
 from collections import deque
 import random
-
 from keras import Sequential
 from keras.layers import Dense
 from keras.activations import relu, linear
 from keras.optimizers import Adam
 from keras.losses import mean_squared_error
 from keras.models import load_model
-
-
 import pickle
 from matplotlib import pyplot as plt
 
